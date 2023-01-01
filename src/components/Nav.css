@@ -1,0 +1,17 @@
+.nav{
+    position: fixed;
+    top:0;
+    display: flex;
+    z-index: 1; /* to stop overlaying contents over nav bar */
+}
+
+.nav-img{
+    width:100px;
+    margin-left: 20px;
+}
+
+.nav-black{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    opacity: .6;
+}
